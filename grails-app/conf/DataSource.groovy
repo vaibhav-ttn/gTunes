@@ -21,7 +21,7 @@ environments {
 
             dialect = 'org.hibernate.dialect.MySQL5InnoDBDialect'
             driverClassName = "com.mysql.jdbc.Driver"
-            dbCreate = "create-drop"
+            dbCreate = "update"
             url = "jdbc:mysql://localhost/gTunes"
             username = "root"
             password = "igdefault"

@@ -5,6 +5,8 @@ class Album {
 
     static hasMany = [songs: Song]
     static belongsTo = [artist: Artist]
-
+    static mapping = {
+        songs cascade: 'delete'
+    }
     SortedSet songs
 }

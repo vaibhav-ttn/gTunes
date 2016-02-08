@@ -1,5 +1,6 @@
 package com.gTunes
 
-class AlbumController {
+class ArtistController {
     static scaffold = true
+    def index() { }
 }
